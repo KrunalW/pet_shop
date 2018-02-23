@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo{margin:0; display:block; overflow:hidden}
+.logo img{width: 93px;}
+.brand {
+  display:block;
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: normal;
+  text-align:left;
+  margin:50px 0 10px 0;
+  color: #000;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+h4{padding: 15px 0;}
+.navbar-nav.navbar-right:last-child {
+  margin-right: 20px;
+}
+
+.navbar-default{box-shadow:0px 2px 10px #acacac; background:#d72f63; margin-top:10px; border-radius: 5px;}
+ul.nav li.dropdown:hover ul.dropdown-menu {display: block; color:#FFF; background:#000}
+
+#sliderMain{}
+.rightside{border-radius:5px; box-shadow:0px 2px 10px #acacac; background:#e6bc08}
+.rightside .thumbnail{background-color: #e6bc08;
+  border: 1px solid #f4cb1d; padding: 16px;}
+.rightside  .thumbnail .caption{padding:8px 0 0 0; text-align: center;}
+.rightside h3{color: #fff;
+  margin-left: 15px;    margin-top: 15px;
+  margin-bottom: 15px;}
+
+#belowBox{ margin-top:12px}
+#belowBox .thumbnail{ background:#a6ba18; text-align:center; margin:0; }
+#belowBox .thumbnail .caption{padding:0; margin:-10px 0}
+#belowBox .caption a{color:#FFF; font-size:20px; margin:0 auto}
+#belowBox .thumbnail p{ margin:0 auto}
+.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-color: #ffffff;
+  border-radius: 5px;
+}
+.carousel-inner{border-radius: 5px;}
+.carousel-control.right{border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;}
+  .carousel-control.left{    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;}
+    .paddingRight-10{
+      padding-right: 10px !important;
+    }
+    .paddingLeft-10{padding-left: 10px!important;}
+
+.ratings{padding: 15px 0}
+.margin-top-10{margin-top: 10px;}
